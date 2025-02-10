@@ -1,0 +1,409 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(225, 239, 243);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+ 
+/* Container Styling */
+.container {
+  background-color: #ffffff; /* White background for contrast */
+  padding: 30px;
+  border: 2px solid #007bff; /* Border around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+}
+ 
+/* Title Styling */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+ 
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+ 
+label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+ 
+input,
+select {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+ 
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+ 
+/* Button Styling */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #397ec7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+ 
+button:hover {
+  background-color: #0f2e4e;
+}
+ 
+button[type="reset"] {
+  background-color: #f44336;
+}
+ 
+button[type="reset"]:hover {
+  background-color: #e53935;
+}
+ 
+button[type="submit"] {
+  background-color: #4caf50;
+}
+ 
+button[type="submit"]:hover {
+  background-color: #388e3c;
+}
+ 
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .container {
+    padding: 50px;
+  }
+ 
+  h1 {
+    font-size: 32px;
+  }
+ 
+  input,
+  select {
+    font-size: 16px;
+    padding: 14px;
+  }
+ 
+  button {
+    font-size: 18px;
+    padding: 15px 25px;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+ 
+  h1 {
+    font-size: 24px;
+  }
+ 
+  input,
+  select {
+    font-size: 14px;
+    padding: 10px;
+  }
+ 
+  button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+ 
+}
+table{
+  width:100%;
+  background-color:whitesmoke;
+  border-collapse:collapse;
+  margin:20px auto;
+}
+th,td{
+  border:2px solid black;
+  padding:12px;
+  text-align:center;
+}
+th{
+  background-color:rgb(184, 179, 173);
+  color:black;
+  font-weight:bold;
+}
+td{
+  background-color:aliceblue;
+  text-align:center;
+}
+ 
+/* Style for Login Page */
+.login-container {
+  
+  background-color: #ffffff; /* White background for contrast */
+  padding: 30px;
+  border: 2px solid #007bff; /* Border around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+  
+}
+ 
+.login-container h1 {
+  text-align: center;
+}
+ 
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.login-container form div {
+  margin-bottom: 10px;
+}
+ 
+.login-container input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+ 
+.login-container button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.login-container button:hover {
+  background-color: #45a049;
+}
+ 
+.login-container p {
+  color: red;
+  text-align: center;
+}
+ 
+/* Style for the TablePage container */
+.design {
+  position: relative;
+  padding-bottom: 60px; /* Add space for the logout button */
+}
+ 
+/* Style for the logout button */
+.logout-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+ 
+ 
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(225, 239, 243);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+ 
+/* Container Styling */
+.container {
+  background-color: #ffffff; /* White background for contrast */
+  padding: 30px;
+  border: 2px solid #007bff; /* Border around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Adjusted for the login form */
+  margin: 20px;
+}
+ 
+/* Title Styling */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+ 
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+ 
+label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+ 
+input {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+ 
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+ 
+/* Button Styling */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #397ec7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+ 
+button:hover {
+  background-color: #0f2e4e;
+}
+ 
+/* Reset Button Styling (Optional) */
+button[type="reset"] {
+  background-color: #f44336;
+}
+ 
+button[type="reset"]:hover {
+  background-color: #e53935;
+}
+ 
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .container {
+    padding: 50px;
+  }
+ 
+  h1 {
+    font-size: 32px;
+  }
+ 
+  input {
+    font-size: 16px;
+    padding: 14px;
+  }
+ 
+  button {
+    font-size: 18px;
+    padding: 15px 25px;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+ 
+  h1 {
+    font-size: 24px;
+  }
+ 
+  input {
+    font-size: 14px;
+    padding: 10px;
+  }
+ 
+  button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+ 
+/* Styling for the add button container to position it */
+.add-button-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+ 
+/* Styling for the Add Employee button */
+.add-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+ 
+/* Hover effect for the add button */
+.add-button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
